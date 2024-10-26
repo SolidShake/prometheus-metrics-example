@@ -1,0 +1,35 @@
+# Ignore the vendor directory and binaries
+/vendor/
+/bin/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific directories and files
+.idea/
+*.iml
+
+# Go-specific files
+# Ignore generated files (if you use go generate)
+*.gen.go
+*.o
+*.a
+
+# Ignore the Go test cache
+*.test
+
+# Ignore executables
+main
+health
+metrics
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.out
